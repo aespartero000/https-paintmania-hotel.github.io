@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paintmania Hotel | Stay & Relax</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;color:#24323d;line-height:1.6;background:#f7f3ee}
+header{background:linear-gradient(135deg,#173b4d,#3d7180);color:white;padding:22px 7%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:25px;font-weight:700}
+nav a{color:white;text-decoration:none;margin-left:22px}
+.hero{min-height:520px;padding:90px 7%;display:flex;align-items:center;background:linear-gradient(rgba(15,45,58,.72),rgba(15,45,58,.72)),url('https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80') center/cover;color:white}
+.hero-content{max-width:650px}
+.hero h1{font-size:55px;line-height:1.1;margin-bottom:20px}
+.hero p{font-size:20px;margin-bottom:28px}
+.btn{display:inline-block;background:#e5a84b;color:#173b4d;padding:13px 25px;border-radius:7px;text-decoration:none;font-weight:bold}
+section{padding:65px 7%}
+.title{text-align:center;margin-bottom:35px}
+.title h2{font-size:34px;color:#173b4d}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{background:white;padding:28px;border-radius:12px;box-shadow:0 5px 20px rgba(0,0,0,.08)}
+.card h3{color:#315f70;margin-bottom:10px}
+.about{background:white}
+.contact{background:#173b4d;color:white;text-align:center}
+footer{text-align:center;padding:20px;background:#102c39;color:white}
+@media(max-width:750px){.cards{grid-template-columns:1fr}.hero h1{font-size:40px}nav{display:none}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">Paintmania Hotel</div>
+<nav><a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact</a></nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Stay & Relax</h1>
+<p>Affordable, comfortable, and memorable accommodation for travelers, tourists, families, and local guests.</p>
+<a class="btn" href="#contact">Book Your Stay</a>
+</div>
+</section>
+
+<section id="about" class="about">
+<div class="title"><h2>Welcome to Paintmania Hotel</h2></div>
+<p style="max-width:850px;margin:auto;text-align:center;font-size:18px">
+Paintmania Hotel is a customer-focused hospitality venture designed to make every stay comfortable, convenient, and enjoyable. We combine value-for-money accommodation with friendly service and a welcoming atmosphere.
+</p>
+</section>
+
+<section id="services">
+<div class="title"><h2>Why Choose Us?</h2></div>
+<div class="cards">
+<div class="card"><h3>Comfortable Rooms</h3><p>Clean and welcoming spaces designed for a relaxing stay.</p></div>
+<div class="card"><h3>Affordable Rates</h3><p>Great value for travelers looking for quality without premium prices.</p></div>
+<div class="card"><h3>Friendly Service</h3><p>Personalized hospitality that helps every guest feel welcome.</p></div>
+</div>
+</section>
+
+<section class="about">
+<div class="title"><h2>Our Mission</h2></div>
+<p style="max-width:850px;margin:auto;text-align:center;font-size:18px">
+To provide affordable, comfortable, and memorable stays through quality hospitality, personalized service, and unique guest experiences.
+</p>
+</section>
+
+<section id="contact" class="contact">
+<div class="title"><h2 style="color:white">Plan Your Stay</h2></div>
+<p>Contact Paintmania Hotel for room availability, rates, and booking information.</p>
+<p style="margin:18px 0"><strong>Email:</strong> paintmaniahotel@example.com</p>
+<a class="btn" href="mailto:paintmaniahotel@example.com">Contact Us</a>
+</section>
+
+<footer>© 2026 Paintmania Hotel. Stay & Relax.</footer>
+</body>
+</html>
